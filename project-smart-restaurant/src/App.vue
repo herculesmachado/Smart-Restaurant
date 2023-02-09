@@ -1,13 +1,10 @@
 <script setup>
-import CategoryMenu from './components/CategoryMenu.vue'
 </script>
 
 <template>
-  <CategoryMenu />
+  <router-view />
 </template>
 
 <style scoped>
-#app {
-
-}
+#app {}
 </style>
