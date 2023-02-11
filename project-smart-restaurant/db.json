@@ -1,0 +1,46 @@
+{
+  "burguers": [
+    {
+      "id": 1,
+      "name": "Duplo Burguer",
+      "description": "Pão, maionese, 2 carnes de 180g, alface, tomate, bacon e cebola roxa",
+      "price": 25,
+      "offer": true
+    },
+    {
+      "id": 2,
+      "name": "Triplo Burguer",
+      "description": "Pão, maionese, 2 carnes de 180g, alface, tomate, bacon e cebola roxa",
+      "price": 32,
+      "offer": true
+    },
+    {
+      "id": 3,
+      "name": "Chicken Burguer",
+      "description": "Pão, maionese, 2 carnes de 180g, alface, tomate, bacon e cebola roxa",
+      "price": 16,
+      "offer": true
+    },
+    {
+      "id": 4,
+      "name": "Kids Burguer",
+      "description": "Pão, maionese, 2 carnes de 180g, alface, tomate, bacon e cebola roxa",
+      "price": 12,
+      "offer": false
+    },
+    {
+      "id": 5,
+      "name": "Picanha Burguer",
+      "description": "Pão, maionese, 2 carnes de 180g, alface, tomate, bacon e cebola roxa",
+      "price": 42,
+      "offer": false
+    },
+    {
+      "id": 6,
+      "name": "Bacon Burguer",
+      "description": "Pão, maionese, 2 carnes de 180g, alface, tomate, bacon e cebola roxa",
+      "price": 25,
+      "offer": false
+    }
+  ]
+}
