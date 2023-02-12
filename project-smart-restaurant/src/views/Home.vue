@@ -1,19 +1,25 @@
-<template lang="">
-    <categoryMenu/>
+<template>
+    <div class="home">
+        <CategoryMenu />
+        <ItemsList />
+    </div>
 </template>
 <script>
-import categoryMenu from '../components/CategoryMenu.vue'
-import axios from 'axios'
+import CategoryMenu from '../components/CategoryMenu.vue'
+import ItemsList from '../components/ItemsList.vue'
 export default {
     name: 'Home',
     components: {
-        categoryMenu
-    },
-    created() {
-        axios.get('http://localhost:3000/burguers').then(function (response) {
-            // manipula o sucesso da requisição
-            console.log(response);
-        })
+        CategoryMenu,
+        ItemsList
     }
 }
 </script>
+
+<style scoped lang="less">
+
+.home {
+    display: flex;
+}
+
+</style>

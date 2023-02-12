@@ -18,28 +18,14 @@
       "id": 3,
       "name": "Chicken Burguer",
       "description": "Pão, maionese, 2 carnes de 180g, alface, tomate, bacon e cebola roxa",
-      "price": 16,
-      "offer": true
+      "price": 16.5,
+      "offer": false
     },
     {
       "id": 4,
       "name": "Kids Burguer",
       "description": "Pão, maionese, 2 carnes de 180g, alface, tomate, bacon e cebola roxa",
-      "price": 12,
-      "offer": false
-    },
-    {
-      "id": 5,
-      "name": "Picanha Burguer",
-      "description": "Pão, maionese, 2 carnes de 180g, alface, tomate, bacon e cebola roxa",
-      "price": 42,
-      "offer": false
-    },
-    {
-      "id": 6,
-      "name": "Bacon Burguer",
-      "description": "Pão, maionese, 2 carnes de 180g, alface, tomate, bacon e cebola roxa",
-      "price": 25,
+      "price": 12.75,
       "offer": false
     }
   ]

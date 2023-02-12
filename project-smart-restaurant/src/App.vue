@@ -6,5 +6,7 @@
 </template>
 
 <style scoped>
-#app {}
+#app {
+  display: flex;
+}
 </style>

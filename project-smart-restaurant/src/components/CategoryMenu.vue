@@ -79,6 +79,7 @@ export default {
     display: flex;
     align-items: center;
 
+
     ul {
         width: 100%;
 
