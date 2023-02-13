@@ -28,8 +28,16 @@ export default {
 }
 </script>
 <style lang="less" scoped>
-    .items-list {
-        margin: 50px;
-        display: flex;
+@import '../assets/variables.less';
+.items-list {
+    display: flex;
+    margin: 50px;
+    
+    @media (max-width: 768px) {
+        flex-wrap: wrap;
+        margin: 10px;
     }
+    
+}
+
 </style>

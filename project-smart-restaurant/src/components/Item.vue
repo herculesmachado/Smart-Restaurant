@@ -2,9 +2,11 @@
     <div class="item">
         <div class="item--tag" v-if="item.offer">Oferta</div>
         <img class="item--img" src="../assets/img/burguer.png" alt="">
-        <h2 class="item--name">{{ item.name }}</h2>
-        <p class="item--description">{{ item.description }}</p>
-        <p class="item--price"> {{ currency }} </p>
+        <div class="content">
+            <h2 class="item--name">{{ item.name }}</h2>
+            <p class="item--description">{{ item.description }}</p>
+            <p class="item--price"> {{ currency }} </p>
+        </div>
     </div>
 </template>
 <script>
@@ -69,5 +71,24 @@ export default {
             color: @light-yellow;
         }
 
+        
+        @media (max-width: 768px) {
+            width: 100%;
+            height: fit-content;
+            border: 1px solid @light-grey;
+            display: flex;
+            margin: 13px auto;
+
+            &--img {
+                height: 60px;
+                margin-right: 15px;
+            }
+
+            &--price {
+                text-align: right;
+                margin: 0 auto;
+            }
+
+        }
     }
 </style>

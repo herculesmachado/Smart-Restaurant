@@ -17,9 +17,15 @@ export default {
 </script>
 
 <style scoped lang="less">
+@import '../assets/variables.less';
 
 .home {
     display: flex;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
 }
+
 
 </style>
