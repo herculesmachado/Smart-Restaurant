@@ -32,12 +32,12 @@ export default {
                 {
                     label: 'Pizza',
                     icon: Pizza,
-                    id: 'pizza',
+                    id: 'pizzas',
                 },
                 {
                     label: 'Combo',
                     icon: Combo,
-                    id: 'combo',
+                    id: 'combos',
                 },
                 {
                     label: 'Deserts',
@@ -55,12 +55,16 @@ export default {
                     id: 'burguers',
                 },
             ],
-            selectedCategory: 'pizza'
+            selectedCategory: ''
         }
+    },
+    mounted() {
+        this.onCategoryClick('pizza')
     },
     methods: {
         onCategoryClick(id) {
             this.selectedCategory = id;
+            this.$store.dispatch('changeCategory', id)
         },
         isActive(id) {
             return this.selectedCategory === id;

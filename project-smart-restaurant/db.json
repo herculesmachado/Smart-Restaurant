@@ -35,5 +35,14 @@
       "price": 12.75,
       "offer": true
     }
+  ],
+  "pizzas": [
+    {
+      "id": 1,
+      "name": "Portuguesa",
+      "description": "Pão, maionese, 2 carnes de 180g, alface, tomate, bacon e cebola roxa",
+      "price": 49.97,
+      "offer": false
+    }
   ]
 }
